@@ -2,11 +2,14 @@ import imaplib
 import email
 import smtplib
 from email.mime.text import MIMEText
+from dotenv import load_dotenv
 
 import os
-
+load_dotenv(dotenv_path="E:\\ReplyGenius-AI\\.env")
 APP_PASSWORD = os.getenv("APP_PASSWORD")
 EMAIL = os.getenv("EMAIL")
+print("EMAIL:", EMAIL)
+print("APP_PASSWORD:", APP_PASSWORD)  
 
 
 # 🤖 SMART REPLY FUNCTION (FREE + STABLE)
@@ -136,3 +139,4 @@ def read_and_reply():
 # ▶️ RUN
 if __name__ == "__main__":
     read_and_reply()
+  
