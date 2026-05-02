@@ -46,7 +46,7 @@ ReplyGenius AI is an intelligent email assistant that reads emails, generates co
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ReplyGenius-AI.git
+git clone https://github.com/Appy0413/ReplyGenius-AI.git
 cd ReplyGenius-AI
 ```
 
@@ -56,7 +56,7 @@ cd ReplyGenius-AI
 pip install ollama
 ```
 
-3. Add your credentials in `app.py`
+3. Create a `.env` file in the project root`
 
 ```python
 EMAIL = "your_email@gmail.com"
