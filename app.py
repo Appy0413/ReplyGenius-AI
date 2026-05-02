@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 from dotenv import load_dotenv
 
 import os
-load_dotenv(dotenv_path="E:\\ReplyGenius-AI\\.env")
+load_dotenv()
 APP_PASSWORD = os.getenv("APP_PASSWORD")
 EMAIL = os.getenv("EMAIL")
 print("EMAIL:", EMAIL)
